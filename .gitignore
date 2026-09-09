@@ -1,0 +1,18 @@
+# Secrets and local configuration
+.env
+
+# Private working documents, never published
+CLAUDE.md
+PLAN-DAY1.md
+
+# Virtual environment
+.venv/
+
+# Generated data
+data/
+*.db
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/

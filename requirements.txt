@@ -1,0 +1,5 @@
+sqlglot>=30
+python-dotenv>=1.1
+requests>=2.32
+pytest>=8
+# psycopg[binary]>=3.2  (optional, only for DATABASE_URL pointing at PostgreSQL)
