@@ -3,7 +3,7 @@
 
 # Private working documents, never published
 CLAUDE.md
-PLAN-DAY1.md
+PLAN-*.md
 
 # Virtual environment
 .venv/
