@@ -105,7 +105,7 @@ def clean_sql(text: str) -> str:
     if match:
         text = match.group(1)
     text = text.strip()
-    # A leading "sql" line survives an unclosed fence.
+    # Some models label the query with a bare "sql" line and no fence.
     if text[:3].lower() == "sql" and (len(text) == 3 or text[3] in " \n\t:"):
         text = text[3:].lstrip(": \n\t")
     return text.strip().rstrip(";").strip()
